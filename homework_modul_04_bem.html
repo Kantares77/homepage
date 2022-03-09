@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luźna stonka</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/block.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="block">
+        <header id="top" class="block__header">
+            <h1 class="block__headerHeight">Luźna stronka</h1>
+        </header>
+
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a href="#pilka-nozna" class="navigation__link">Ulubiona liga piłkarska</a></li>
+                <li><a href="#muzyka" class="navigation__link">Ulubione polskie zespoły</a></li>
+            </ul>
+        </nav>
+        <button class="block__button button ">Włącz <span class="themeName">inny</span> motyw</button>
+        <main>
+
+            <section id="pilka-nozna" class="section">
+                <h2 class="section__header">Piłka nożna</h2>
+                <p class="section__logo">
+                    <img width="200" src="https://i.postimg.cc/3NqJwDXG/logo-premier-league2.png"
+                        alt="Brak logo premier league">
+                <p class="section__paragraph">Premier League uznawana jest obecnie za najlepszą europejską ligę świata
+                    skupiającą
+                    najwięcej
+                    super-drużyn,
+                    które mają w swoich składach prawdziwe gwiazdozbiory. W żadnej innej lidze nie znajdziecie tak dużej
+                    liczby gwiazd i piłkarzy zaawansowanych technicznie, jak właśnie na boiskach angielskich.<br>
+                    Premier League to wspaniałe drużyny, w których grają najlepsi i najbardziej rozpoznawalni gracze na
+                    całym świecie. Charakteryzuje ją bardzo wyrównana tabela, w której w walce o puchary
+                    zwykle liczy się 8-9 zespołów. Piękną grę i niezwykle efektowne mecze podziwiają miłośnicy futbolu
+                    na całym świecie, a wyniki w europejskich pucharach wskazują na dominację właśnie drużyn z
+                    ligi angielskiej.<br>
+                    Z czystym sumieniem polecam śledzenie tych ekscytujących rozgrywek,
+                    podziwwianie efektownych akcji, przepięknych bramek, trzymających do końca w napięciu pojedynków – z
+                    pewnością się nie zawiedziecie!<br>
+                </p>
+                <div class="container">
+                    <table class="container__table">
+                        <caption class="container__caption">Drużyny Premier League w sezonie 2021/2022</caption>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="col">Klub</th>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="col">Miasto</th>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="col">Stadion</th>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="col">Trener</th>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/hPJt5pn1/Man-Utd.png" alt="Brak logo Man Utd"
+                                    class="container__image">
+                                <p class="container__paragraph">Manchester United</p>
+                            </th>
+                            <td class="container__tableCell">Manchester</td>
+                            <td class="container__tableCell">Old Trafford</td>
+                            <td class="container__tableCell">Ralf Rangnick</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/mDXTdF6n/Tottenham.png" alt="Brak logo Tottenham"
+                                    class="container__image">
+                                <p class="container__paragraph">Tottenham Hotspur</p>
+                            </th>
+                            <td class="container__tableCell">Londyn</td>
+                            <td class="container__tableCell">Tottenham Hotspur Stadium</td>
+                            <td class="container__tableCell">Antonio Conte</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/nzkXnzSK/Arsenal.png" alt="Brak logo Arsenal"
+                                    class="container__image">
+                                <p class="container__paragraph">Arsenal</p>
+                            </th>
+                            <td class="container__tableCell">Londyn</td>
+                            <td class="container__tableCell">Emirates Stadium</td>
+                            <td class="container__tableCell">Mikel Arteta</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/2jtzhhWb/West-Ham.png" alt="Brak logo West Ham"
+                                    class="container__image">
+                                <p class="container__paragraph">West Ham United</p>
+                            </th>
+                            <td class="container__tableCell">Londyn</td>
+                            <td class="container__tableCell">Olympic Stadium</td>
+                            <td class="container__tableCell">David Moyes</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/Dfpz6R9z/Man-City.png" alt="Brak logo Man City"
+                                    class="container__image">
+                                <p class="container__paragraph">Manchester City</p>
+                            </th>
+                            <td class="container__tableCell">Manchester</td>
+                            <td class="container__tableCell">City of Manchester Stadium</td>
+                            <td class="container__tableCell">Pep Guardiola</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/SsDxwPjD/Liverpool.png" alt="Brak logo Liverpool"
+                                    class="container__image">
+                                <p class="container__paragraph">Liverpool</p>
+                            </th>
+                            <td class="container__tableCell">Liverpool</td>
+                            <td class="container__tableCell">Anfield</td>
+                            <td class="container__tableCell">Jürgen Klopp</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/fRmTwyJ3/Newcastle-United.png"
+                                    alt="Brak logo Newcastle United" class="container__image">
+                                <p class="container__paragraph">Newcastle United</p>
+                            </th>
+                            <td class="container__tableCell">Newcastle upon Tyne</td>
+                            <td class="container__tableCell">St James’ Park</td>
+                            <td class="container__tableCell">Eddie Howe</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/RhZNhB2k/Aston-Villa.png" alt="Brak logo Aston Villa"
+                                    class="container__image">
+                                <p class="container__paragraph">Aston Villa</p>
+                            </th>
+                            <td class="container__tableCell">Birmingham</td>
+                            <td class="container__tableCell">Villa Park</td>
+                            <td class="container__tableCell">Steven Gerrard</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/sgh1vK0g/Chelsea.png" alt="Brak logo Chelsea"
+                                    class="container__image">
+                                <p class="container__paragraph">Chelsea</p>
+                            </th>
+                            <td class="container__tableCell">Londyn</td>
+                            <td class="container__tableCell">Stamford Bridge</td>
+                            <td class="container__tableCell">Thomas Tuchel</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/QMZC55Rk/Everton.png" alt="Brak logo Everton"
+                                    class="container__image">
+                                <p class="container__paragraph">Everton</p>
+                            </th>
+                            <td class="container__tableCell">Liverpool</td>
+                            <td class="container__tableCell">Goodison Park</td>
+                            <td class="container__tableCell">Frank Lampard</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/PqbxMJHG/Leeds.png" alt="Brak logo Leeds" class="container__image">
+                                <p class="container__paragraph">Leeds United</p>
+                            </th>
+                            <td class="container__tableCell">Leeds</td>
+                            <td class="container__tableCell">Elland Road</td>
+                            <td class="container__tableCell">Marcelo Bielsa</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/W3b267Sr/Southhampton.png" alt="Brak logo Southhampton"
+                                    class="container__image">
+                                <p class="container__paragraph">Southampton</p>
+                            </th>
+                            <td class="container__tableCell">Southampton</td>
+                            <td class="container__tableCell">St Mary’s Stadium</td>
+                            <td class="container__tableCell">Ralph Hasenhüttl</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/HxpLvmWr/Leicester.png" alt="Brak logo Leicester"
+                                    class="container__image">
+                                <p class="container__paragraph">Leicester City</p>
+                            </th>
+                            <td class="container__tableCell">Leicester</td>
+                            <td class="container__tableCell">King Power Stadium</td>
+                            <td class="container__tableCell">Brendan Rodgers</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/xTb9R8Gs/Wolverhampton.png" alt="Brak logo Wolverhampton"
+                                    class="container__image">
+                                <p class="container__paragraph">Wolverhampton Wanderers</p>
+                            </th>
+                            <td class="container__tableCell">Wolverhampton</td>
+                            <td class="container__tableCell">Molineux Stadium</td>
+                            <td class="container__tableCell">Bruno Lage</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/4y2nh0gm/Brighton.png" alt="Brak logo Brighton"
+                                    class="container__image">
+                                <p class="container__paragraph">Brighton & Hove Albion</p>
+                            </th>
+                            <td class="container__tableCell">Brighton</td>
+                            <td class="container__tableCell">Falmer Stadium</td>
+                            <td class="container__tableCell">Graham Potter</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/R0mCqmHg/Norwich.png" alt="Brak logo Norwich"
+                                    class="container__image">
+                                <p class="container__paragraph">Norwich City</p>
+                            </th>
+                            <td class="container__tableCell">Norwich</td>
+                            <td class="container__tableCell">Carrow Road</td>
+                            <td class="container__tableCell">Dean Smith</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/fTFJz1CP/Crystal.png" alt="Brak logo Crystal Palace"
+                                    class="container__image">
+                                <p class="container__paragraph">Crystal Palace</p>
+                            </th>
+                            <td class="container__tableCell">Londyn</td>
+                            <td class="container__tableCell">Selhurst Park</td>
+                            <td class="container__tableCell">Patrick Vieira</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/gjxm1kC2/Watford.png" alt="Brak logo Watford"
+                                    class="container__image">
+                                <p class="container__paragraph">Watford</p>
+                            </th>
+                            <td class="container__tableCell">Watford</td>
+                            <td class="container__tableCell">Vicarage Road</td>
+                            <td class="container__tableCell">prowadzi asystent Paolo Benetti</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/Y2dvVvWM/Burnley.png" alt="Brak logo Burnley"
+                                    class="container__image">
+                                <p class="container__paragraph">Burnley</p>
+                            </th>
+                            <td class="container__tableCell">Burnley</td>
+                            <td class="container__tableCell">Turf Moor</td>
+                            <td class="container__tableCell">Sean Dyche</td>
+                        </tr>
+                        <tr>
+                            <th class="container__tableCell container__tableCell--tableHeader" scope="row"><img width="60"
+                                    src="https://i.postimg.cc/Fs1YQhyc/Brentford.png" alt="Brak logo Brentford"
+                                    class="container__image">
+                                <p class="container__paragraph">Brentford</p>
+                            </th>
+                            <td class="container__tableCell">Londyn</td>
+                            <td class="container__tableCell">Brentford Community Stadium</td>
+                            <td class="container__tableCell">Thomas Frank</td>
+                        </tr>
+                    </table>
+                    <p class="section__linkFont">Oficjalna strona:
+                        <a class="section__link" rel="noreferrer noopener" target="_blank"
+                            href="https://www.premierleague.com/matchweek/6688/blog"
+                            title="Oficjalna strona Premier League">Premier League (otwiera się w nowej karcie)</a>
+                    </p>
+                </div>
+            </section>
+            <p><a href="#top" class="block__backButton">Powrót</a></p>
+            <div class="section__paragraph">
+                <section id="muzyka" class="section">
+                    <h2 class="section__header">Muzyka</h2>
+                    <p class="section__logo"><img width="200" src="https://i.postimg.cc/zvvG5kg5/logo-coma.png"
+                            alt="Brak logo coma"></p>
+                    <p class="section__image"><img width="450" src="https://i.postimg.cc/25xkZtdr/Coma.png"
+                            alt="Brak zdjecia coma"></p>
+                    <P class="section__paragraph">Pomimo faktu, iż zespół Coma zawieśił swoją działalność jest to
+                        zdecydowanie jeden z najlepszych
+                        bandów rockowych ostatnich lat jaki powstał w Polsce.<br>Zespół został założony w 1998 roku w
+                        Łodzi
+                        przez gitarzystę Dominika Witczaka i perkusistę Tomasza Stasiaka, którzy wcześniej byli związani
+                        z
+                        grupą Ozoz. Z czasem do formacji dołączyli basista Rafał Matuszak, gitarzysta Wojciech Grenda i
+                        wokalista Piotr Rogucki. W 2001 Grenda został zastąpiony przez Marcina Kobzę, po czym zespół
+                        dotarł
+                        do ostatniego etapu przesłuchań konkursu debiutów w Opolu. Dwa lata później podpisał kontrakt z
+                        BMG
+                        Poland.<br>W 2004 roku ukazał się debiutancki album zatytułowany „Pierwsze wyjście z mroku” i
+                        grupa
+                        zajęła pierwsze miejsce na Festiwalu Rockowym w Węgorzewie. W 2006 roku pojawił się album
+                        „Zaprzepaszczone siły wielkiej armii świętych znaków” i grupa wystąpiła na XII Przystanku
+                        Woodstock.
+                        W 2008 roku dołączył do niej Adam Marszałkowski i zespół zaprezentował trzeci krążek
+                        „Hipertrofia”.
+                        W 2010 roku ukazały się koncertowe płyty „Live” z zapisem występu w Arenie Ursynów oraz
+                        „Symfonicznie”. W 2011 roku zespół zaprezentował tzw. „Czerwony Album”. W 2012 roku odbył trasę
+                        koncertową z
+                        okazji 15-lecia istnienia, a w 2019 ogłosił zawieszenie działalności. Do tego czasu wydał
+                        łącznie
+                        dziewięć albumów studyjnych.</P>
+                    <ul class="section__unorderedList">
+                        <li>
+                            Skład
+                            <ul class="section__unorderedList">
+                                <li>Piotr Rogucki - wokal</li>
+                                <li>Dominik Witczak – gitara</li>
+                                <li>Marcin Kobza – gitara</li>
+                                <li>Rafał Matuszak – gitara basowa</li>
+                                <li>Adam Marszałkowski – perkusja</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="section__linkFont">Odwiedź zespół na:
+                        <a class="section__link" rel="noreferrer noopener" target="_blank"
+                            href="https://pl.wikipedia.org/wiki/Coma" title="Coma na Wikipedii">Wikipedia (otwiera
+                            się w nowej karcie)</a>
+                    </p>
+                    <hr>
+                    <p class="section__logo"><img width="200" src="https://i.postimg.cc/DytwkLyk/logo-luxtorpeda.png"
+                            alt="Brak logo luxtorpeda">
+                    </p>
+                    <p class="section__image"><img width="470" src="https://i.postimg.cc/x8BnQVQy/Luxtorpeda.png"
+                            alt="Brak zdjecia luxtorpeda">
+                    </p>
+                    <p class="section__paragraph">Pomysłodawcą i założycielem Luxtoprpedy był gitarzysta i wokalista
+                        Robert "Litza" Friedrich -
+                        postać
+                        doskonale znana na polskiej scenie rockowej. Muzyk zasłynął jako członek zespołów Turbo,
+                        Acid
+                        Drinker, Flapjack, Kazik na Żywo czy 2Tm2,3. W skład formacji weszli również związani z
+                        2Tm2,3
+                        basista Krzysztof Kmiecik i gitarzysta Robert Drężek, a także perkusista zespołów Armia oraz
+                        Turbo,
+                        Tomasz Krzyżaniak. W 2011 roku do Luxtorpedy dołączył w roli wokalisty Przemysław „Hans”
+                        Frencel,
+                        należący do duetu Pięć Dwa.<br>Wkrótce ukazał się debiutancki album studyjny zespołu
+                        zatytułowany
+                        „Luxtorpeda”, na którym znalazł się między innymi utwór „Autystyczny”, który stał się
+                        przebojem. Rok
+                        później zespół nagrał drugą płytę „Robaki”, która również odniosła sukces. W ciągu kolejnych
+                        lat
+                        formacja wydała albumy „A morał tej historii mógłby być taki, mimo że cukrowe, to jednak
+                        buraki”
+                        (2014), „MYWASWYNAS” (2016) i „Anno Domini MMXX” (2020).</p>
+                    <ul class="section__unorderedList">
+                        <li>
+                            Skład
+                            <ul class="section__unorderedList">
+                                <li>Robert „Litza” Friedrich – gitara, śpiew</li>
+                                <li>Przemysław „Hans” Frencel – śpiew, rap</li>
+                                <li>Robert „Drężmak” Drężek – gitara</li>
+                                <li>Krzysztof „Kmieta” Kmiecik – gitara basowa</li>
+                                <li>Tomasz „Krzyżyk” Krzyżaniak – perkusja</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="section__linkFont">Odwiedź zespół na:
+                        <a class="section__link" rel="noreferrer noopener" target="_blank"
+                            href="https://www.luxtorpeda.eu/" title="Storna główna zespołu Luxtorpeda">Luxtorpeda
+                            (otwiera się w nowej karcie)</a>
+                    </p>
+                </section>
+                <p><a href="#top" class="block__backButton">Powrót</a></p>
+            </div>
+        </main>
+        <footer class="footer secondFont">
+            <p>Copyright &#169; 2022 Kantares</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: #333;
+    margin: 8px;
+}
+
+.dark {
+    background:hsl(240, 21%, 76%);
+}
