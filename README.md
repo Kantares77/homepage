@@ -6,7 +6,7 @@ https://kantares77.github.io/homepage/
 
 ## Zawartość
 
-Parę słów o piłce oraz muzyce:)
+Parę słów o piłce i muzyce:)
 
 
 
