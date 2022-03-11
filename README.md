@@ -1,12 +1,17 @@
-# Kantares - moja pierwsza stronka
+# My first a very simple "HOMEPAGE"
 
-## link do strony:
+## please catche the following link:
 
 https://kantares77.github.io/homepage/
 
-## Zawartość
+## Content
 
-Parę słów o piłce i muzyce:)
+The following homepage includes a few information regarding the most famous european football league **PREMIER LEAGUE**.
+
+The 2nd section describes my favourites polish rock bands **COMA** and **LUXTORPEDA**.
+
+Enjoy reading:)
+
 
 
 
