@@ -1,10 +1,10 @@
 # My first a very simple "HOMEPAGE"
 
-## please catche the following link:
+## please catch the following link:
 
 https://kantares77.github.io/homepage/
 
-## Content
+## Content:
 
 The following homepage includes a few information regarding the most famous european football league **PREMIER LEAGUE**.
 
