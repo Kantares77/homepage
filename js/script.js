@@ -1,9 +1,21 @@
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+{
+    const welcome = () => {
+        console.log("Funkcja powitalna");
+    };
 
-button.addEventListener("click", () => { 
-    body.classList.toggle("dark");
 
-themeName.innerText = body.classList.contains("dark") ? "jasny" : "inny";
-});
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".themeName");
+        body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "inny";
+    };    
+
+    const init = () => {
+        const button = document.querySelector(".button");
+        button.addEventListener("click", (toggleBackground));
+    };
+
+    welcome();
+    init();   
+}
