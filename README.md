@@ -6,7 +6,7 @@ https://kantares77.github.io/homepage/
 
 ## Content:
 
-The following homepage includes a few information regarding the most famous european football league **PREMIER LEAGUE**.
+The following webpage includes a few information regarding the most famous european football league **PREMIER LEAGUE**.
 
 The 2nd section describes my favourites polish rock bands **COMA** and **LUXTORPEDA**.
 
