@@ -10,7 +10,7 @@ The following webpage includes a few information regarding the most famous europ
 
 The 2nd section describes my favourites polish rock bands **COMA** and **LUXTORPEDA**.
 
-Enjoy reading:)
+Enjoy reading 😉
 
 
 
