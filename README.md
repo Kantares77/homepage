@@ -1,4 +1,4 @@
-# My first a very simple webpage
+# My first simple webpage
 
 ## please catch the following link:
 
