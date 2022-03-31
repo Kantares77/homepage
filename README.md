@@ -12,6 +12,8 @@ The 2nd section describes my favourites polish rock bands **COMA** and **LUXTORP
 
 Enjoy reading 😉
 
+(https://github.com/Kantares77/homepage/blob/main/images/homepageGif.gif)
+
 
 
 
